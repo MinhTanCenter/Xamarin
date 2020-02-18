@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj": {}
+    "D:\\GitHub\\Xamarin\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj": {
+    "D:\\GitHub\\Xamarin\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj",
+        "projectUniqueName": "D:\\GitHub\\Xamarin\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj",
         "projectName": "TipCalcutor",
-        "projectPath": "D:\\GitHub\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj",
+        "projectPath": "D:\\GitHub\\Xamarin\\TipCalcutor\\TipCalcutor\\TipCalcutor.csproj",
         "packagesPath": "C:\\Users\\MinhT\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\TipCalcutor\\TipCalcutor\\obj\\",
+        "outputPath": "D:\\GitHub\\Xamarin\\TipCalcutor\\TipCalcutor\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

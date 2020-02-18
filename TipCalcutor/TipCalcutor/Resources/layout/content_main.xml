@@ -1,35 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2" />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"/>
     <Button
+        android:text="CALCULATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CALCULATE" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:id="@+id/linearLayout1" >
         <TextView
-            android:text="Tip "
-            android:layout_width="wrap_content"
+            android:text="Tip"
+            android:layout_width="42.5dp"
             android:layout_height="match_parent" />
         <TextView
+            android:text="Text"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"/>
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -38,12 +46,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
         <TextView
-            android:text="Total "
-            android:layout_width="wrap_content"
+            android:text="Total"
+            android:layout_width="43.0dp"
             android:layout_height="match_parent" />
         <TextView
+            android:text="Text"
             android:layout_width="wrap_content"
             android:layout_height="match_parent" />
     </LinearLayout>
-    
 </LinearLayout>
